@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "roomTitle": "Deluxe Suite",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "review": 4.5,
+    "price": 250,
+    "kitchenReview": 4,
+    "description": "Our Deluxe Suite offers a luxurious experience with a comfortable king-sized bed, a private bathroom with all necessary amenities, and a fully-equipped kitchen. The room has a beautiful view of the city and includes free Wi-Fi and room service.",
+    "image": "https://i.ibb.co/DMwWcLg/Rectangle26.png"
+  },
+  {
+    "id": 2,
+    "roomTitle": "Premium Room",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "review": 4.8,
+    "price": 180,
+    "kitchenReview": 4.5,
+    "description": "Our Premium Room offers a cozy and elegant space with a comfortable queen-sized bed, a private bathroom with all necessary amenities, and a fully-equipped kitchenette. The room has a beautiful view of the garden and includes free Wi-Fi and daily housekeeping.",
+    "image": "https://i.ibb.co/mHqx0j8/Rectangle28.png"
+  },
+  {
+    "id": 3,
+    "roomTitle": "Standard Double Room",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "review": 3.9,
+    "price": 120,
+    "kitchenReview": 3,
+    "description": "Our Standard Double Room offers a simple and comfortable space with two twin beds, a private bathroom with all necessary amenities, and a small kitchenette. The room includes free Wi-Fi and daily housekeeping.",
+    "image": "https://i.ibb.co/Yc03vnH/Rectangle27.png"
+  },
+  {
+    "id": 4,
+    "roomTitle": "Luxury Suite",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "baths": 2,
+    "review": 4.7,
+    "price": 400,
+    "kitchenReview": 5,
+    "description": "Our Luxury Suite offers a spacious and stylish experience with two comfortable queen-sized beds, two private bathrooms with all necessary amenities, and a fully-equipped kitchen. The suite has a beautiful view of the ocean and includes free Wi-Fi and daily housekeeping.",
+    "image": "https://i.ibb.co/mHqx0j8/Rectangle28.png"
+  },
+  {
+    "id": 5,
+    "roomTitle": "Family Room",
+    "guests": 5,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "review": 4.2,
+    "price": 300,
+    "kitchenReview": 4,
+    "description": "Our Family Room offers a spacious and comfortable space with three cozy beds, two private bathrooms with all necessary amenities, and a small kitchenette. The room includes free Wi-Fi and daily housekeeping.",
+    "image": "https://i.ibb.co/Yc03vnH/Rectangle27.png"
+  },
+  {
+    "id": 6,
+    "roomTitle": "Budget Room",
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "review": 3.2,
+    "price": 50,
+    "kitchenReview": 2.5,
+    "description": "Our Budget Room offers a simple and affordable space with a comfortable twin bed, a shared bathroom, and access to a communal kitchenette. The room includes free Wi-Fi and daily housekeeping.",
+    "image": "https://i.ibb.co/Yc03vnH/Rectangle27.png"
+  }
+]
