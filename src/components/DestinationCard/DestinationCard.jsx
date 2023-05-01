@@ -11,7 +11,7 @@ const DestinationCard = ({ destination }) => {
       <img className="w-full h-60 rounded-3xl" src={image} alt="" />
       <div className="text-white p-5">
         <h2 className="text-xl md:text-3xl font-semibold">{name}</h2>
-        <p className="mt-3">{description}</p>
+        <p className="mt-3">{description.length > 250 ? description.slice(0,250)+"..." : description}</p>
         <p className="my-5">
           Price: {price} / {currency}
         </p>

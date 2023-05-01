@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const LeftSideContent = ({ dnSingleContent,children }) => {
   return (
     <>
-      <h1 className="text-3xl md:text-7xl font-bold text-white">{dnSingleContent?.name}</h1>
+      <h1 className="text-3xl md:text-6xl font-bold text-white">{dnSingleContent?.name}</h1>
       <p className="text-lg md:font-medium text-white">
-        {dnSingleContent?.description}
+        {dnSingleContent?.description.length > 250 ? dnSingleContent?.description.slice(0,250)+"..." : dnSingleContent?.description}
       </p>
       {children && children}
     </>
