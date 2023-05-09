@@ -20,16 +20,21 @@ import { BgProvider } from "../../../layouts/Main";
 export default function Home() {
   const destinationData = useLoaderData();
   const {setBgImg} = useContext(BgProvider)
-  const [value, setValue] = useState(1);
+  const [index,setIndex] = useState(0);
 
 
-  const dnSingleContent = destinationData.find((dn) => dn.id === value);
+  const dnSingleContent = destinationData[index]
+
+  useEffect(() => {
+      setBgImg(dnSingleContent)
+  },[index])
 
 
-  const handleSelectCard = (dn) => {
-    setValue(dn.id);
-    setBgImg(dn)
-  };
+
+
+  console.log(index);
+
+
   return (
     <div className="grid md:ps-32 px-5 md:px-0 md:grid-cols-2 items-center gap-8">
       <div className=" space-y-4">
@@ -65,16 +70,14 @@ export default function Home() {
 
           }}
           onSwiper={(swiper) => console.log(swiper)}
-          // onSlideChange={ () => console.log("swiper")}
+          onSlideChange={ (swiper) => setIndex(swiper.realIndex)}
+
           
-        
         >
           {destinationData.map((dn) => (
-               
             <SwiperSlide
             key={dn.id}>
               <TourCard
-                handleSelectCard={handleSelectCard}
                 dn={dn}
               ></TourCard>
             </SwiperSlide>

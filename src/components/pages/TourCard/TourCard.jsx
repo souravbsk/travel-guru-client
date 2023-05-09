@@ -1,13 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { SwiperSlide } from "swiper/react";
 
-const TourCard = ({ dn, handleSelectCard }) => {
+const TourCard = ({ dn}) => {
   return (
     <div className="h-[416px]">
       <figure
-        onClick={() => handleSelectCard(dn)}
+
         className="relative   max-w-full w-72"
       >
         <img

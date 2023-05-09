@@ -7,11 +7,6 @@ export const BgProvider = createContext("");
 
 const Main = () => {
     const [bgImg,setBgImg] = useState({});
-    useEffect(() => {
-        fetch('https://travel-guru-server-souravbsk.vercel.app/allDestinations')
-        .then(res => res.json())
-        .then(data => setBgImg(data[0]))
-    },[])
     const bgInfo ={
         bgImg,
         setBgImg
